@@ -84,7 +84,7 @@
     margin: 3em auto;
   }
 
-  .about, .services, .location{
+  .about, .services, .company{
       height: 550px;  
       position: relative; 
       border: solid black;

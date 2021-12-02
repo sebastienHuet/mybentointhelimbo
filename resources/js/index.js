@@ -2,7 +2,7 @@ let body = document.querySelector('body');
 let element = document.documentElement;
 let logo = document.querySelector('.logo-company');
 let logoTitle = document.querySelector('.logo-company h1');
-let menu = document.querySelector('.menu-container')
+let menu = document.querySelector('.menu-container');
 
 function scrollWindow (){
 if (body.scrollTop > 80 || element.scrollTop > 80){
