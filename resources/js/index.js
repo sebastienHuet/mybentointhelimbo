@@ -22,8 +22,3 @@ if (body.scrollTop > 80 || element.scrollTop > 80){
 
 window.onscroll = function(){scrollWindow()};
 
-let service = document.querySelector('#service-menu')
-
-service.addEventListener('click', function(){
-    body.scrollTop -= 50;
-})

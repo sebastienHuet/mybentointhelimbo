@@ -8,7 +8,6 @@ html {
   font-family: "Verdana";
   font-size: 16px;
   scroll-padding-top: 125px; /* height of sticky header */
-
 }
 
 header,
@@ -75,7 +74,6 @@ footer {
 .main-background {
   background-image: url("../img/bento-background.jpg");
   background-repeat: no-repeat;
-  opacity: 0.5;
 }
 
 .container {
@@ -103,12 +101,20 @@ footer {
 
 /*About and services' common section */
 
+.color-emphasized {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.color-normal {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .about,
 .services,
 .company {
   height: 650px;
   position: relative;
-  border: solid black;
+  border: solid rgba(0, 0, 0, 0.5);
   border-radius: 14px;
   margin-bottom: 3em;
   font-weight: bold;
@@ -152,28 +158,28 @@ footer {
 }
 .ecommerce,
 .take-away {
-  width: 500px;
+  width: 1200px;
   height: 500px;
   margin-right: 1em;
   margin-left: 1em;
 }
 
 .services-img {
-  width: 500px;
+  max-width: 100%;
   height: 350px;
   background-color: #dddddd;
 }
 
 .services-explanation {
-  width: 500px;
   height: 175px;
-  border: black 1px solid;
+  border: rgba(0, 0, 0, 0.5) 1px solid;
   margin-top: 1.5em;
   padding: 1.5em;
 }
 
-.services-explanation h1{
+.services-explanation h1 {
   margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .about-img-first {
@@ -182,7 +188,7 @@ footer {
 
 /*Section Company*/
 
-.company-info{
+.company-info {
   max-width: 1200px;
   height: 650px;
   display: flex;
@@ -190,15 +196,21 @@ footer {
   align-items: center;
 }
 
-table tr{
+table tr {
   height: 5em;
+  display: flex;
+  align-items: center;
+}
+
+.line-space {
+  line-height: 1.5;
 }
 
 table tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-table td{
+table td {
   padding: 1em;
 }
 
@@ -209,34 +221,36 @@ table td{
   background-color: #dddddd;
 }
 
-.contact-section{
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact-title{
+.contact-title {
   font-size: 5em;
 }
 
-.form{
-  margin-left:3em;
+.form {
+  margin-left: 3em;
   padding: 2em;
 }
-.form input{
+.form input {
   margin-bottom: 1em;
 }
 
-.form label{
+.form label {
   line-height: 2;
 }
 
-
-.form input[type=submit]{
+.form input[type="submit"] {
   border-radius: 0.5em;
   padding: 0.5em;
   border: 0 none;
   cursor: pointer;
+  font-family: "Verdana";
+  font-size: 16px;
+  opacity: 0.5;
 }
 
 /*footer*/
@@ -291,6 +305,10 @@ footer {
 @media only screen and (max-width: 1025px) {
   .container {
     max-width: 900px;
+  }
+
+  .services-explanation {
+    height: 190px;
   }
 }
 
