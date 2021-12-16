@@ -85,7 +85,7 @@ footer {
 
 .section-title {
   position: absolute;
-  top: -20px;
+  top: -30px;
   background-color: #fff;
   padding: 0 10px;
   font-size: 2em;
@@ -104,7 +104,7 @@ footer {
 .about,
 .services,
 .company {
-  height: 550px;
+  height: 650px;
   position: relative;
   border: solid black;
   border-radius: 14px;
@@ -137,7 +137,7 @@ footer {
 .about-img-first,
 .about-img-second {
   width: 350px;
-  height: 350px;
+  height: 400px;
   margin-right: 1em;
   margin-left: 1em;
   background-color: grey;
@@ -158,7 +158,7 @@ footer {
 
 .services-img {
   width: 500px;
-  height: 300px;
+  height: 350px;
   background-color: grey;
 }
 
@@ -178,8 +178,63 @@ footer {
   margin-top: 10em;
 }
 
+/*Section Company*/
+
+.company-info{
+  max-width: 1200px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table tr{
+  height: 5em;
+}
+
+table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table td{
+  padding: 1em;
+}
+
+/*Section Contact*/
+
 .contact {
   height: 650px;
+  background-color: #dddddd;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title{
+  font-size: 5em;
+}
+
+.form{
+  margin-left:3em;
+  padding: 2em;
+}
+.form input{
+  margin-bottom: 1em;
+}
+
+.form label{
+  line-height: 2;
+}
+
+
+.form input[type=submit]{
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: 0 none;
+  cursor: pointer;
 }
 
 /*footer*/
