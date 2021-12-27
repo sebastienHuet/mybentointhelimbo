@@ -294,30 +294,7 @@ footer {
 }
 
 /*Responsive design*/
-@media only screen and (max-width: 680px) {
-  .menu-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.94);
-    height: auto;
-    width: 100%;
-  }
 
-  .menu-main ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu-main li {
-    font-size: 1.5em;
-    line-height: 1.5;
-  }
-
-  .top-img {
-    margin-top: 250px;
-  }
-}
 
 @media only screen and (max-width: 1230px) {
   .container {
@@ -434,6 +411,7 @@ footer {
 
   .form{
     margin: none;
+
   }
 }
 
@@ -475,8 +453,38 @@ footer {
     right: auto;
   }
 
+  .title-position-small{
+    left: 75px;
+  }
+
   .company-info{
     margin-top: 4em;
+  }
+}
+
+/*Responsive menu*/
+@media only screen and (max-width: 680px) {
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.94);
+    height: auto;
+    width: 100%;
+  }
+
+  .menu-main ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-main li {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+
+  .top-img {
+    margin-top: 250px;
   }
 }
 
