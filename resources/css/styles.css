@@ -209,6 +209,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 4em;
 }
 
 table tr {
@@ -461,14 +462,6 @@ footer {
 
   .title-position-right{
     right: auto;
-  }
-
-  .title-position-small{
-    left: 75px;
-  }
-
-  .company-info{
-    margin-top: 4em;
   }
 }
 
