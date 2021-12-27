@@ -142,6 +142,7 @@ footer {
 .about-img-block {
   display: flex;
   margin-left: 1em;
+  
 }
 
 .about-explanation {
@@ -442,9 +443,11 @@ footer {
     margin-top: 2em;
   }
 
-  .services-img{
+ .services-img{
     max-width: 100%;
   }
+
+ 
 
   .services-explanation {
     max-width: 100%;
@@ -465,6 +468,17 @@ footer {
   }
 }
 
+@media only screen and (max-width:370px ){
+  .about-img-first{
+    width: 337px;
+  }
+}
+
+@media only screen and (max-width:355px ){
+  .about-img-first{
+    width: 250px;
+  }
+}
 /*Responsive menu*/
 @media only screen and (max-width: 680px) {
   .menu-container {
