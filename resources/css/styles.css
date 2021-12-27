@@ -474,9 +474,9 @@ footer {
   }
 }
 
-@media only screen and (max-width:250px ){
+@media only screen and (max-width:280px ){
   .about-img-first{
-    width: 140px;
+    width: 248px;
   }
 }
 
