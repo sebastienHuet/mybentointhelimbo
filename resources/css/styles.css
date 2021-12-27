@@ -349,6 +349,13 @@ footer {
     text-align: center;
   }
 
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin: auto;
+  }
+
 }
 
 @media only screen and (max-width: 750px){
@@ -364,10 +371,14 @@ footer {
   
   .about-explanation {
     width: 100%;
+    text-align: center;
     height: auto;
   }
 
   .about-img-first{
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
     margin-top: 2em;
   }
 
