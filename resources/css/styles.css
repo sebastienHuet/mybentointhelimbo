@@ -155,7 +155,7 @@ footer {
 
 .about-img-first,
 .about-img-second {
-  max-width: 100%;
+  width: 400px;
   height: 400px;
   margin-right: 1em;
   margin-left: 1em;
@@ -370,13 +370,12 @@ footer {
 
   
   .about-explanation {
-    width: 100%;
+    width: auto;
     text-align: center;
     height: auto;
   }
 
   .about-img-first{
-    max-width: 100%;
     margin-left: 0;
     margin-bottom: 0;
     margin-top: 2em;
